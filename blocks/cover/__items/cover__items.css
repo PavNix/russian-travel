@@ -7,6 +7,11 @@
     text-decoration: none;
     z-index: 3;
     text-align: center;
+    background-image: url("../../../images/cover-trains.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 
 .cover__items::before {
@@ -52,7 +57,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
     .cover__items {
         min-height: 200px;
     }

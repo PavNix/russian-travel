@@ -2,7 +2,7 @@
     max-width: 560px;
     margin: 0;
     padding-bottom: 32px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 72px;
@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         max-width: calc(100% - 32px);
         padding-bottom: 16px;
