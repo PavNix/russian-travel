@@ -1,0 +1,7 @@
+.lead {
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, max-content);
+    justify-content: center;
+    align-content: start;
+    color: #fff;
+}

@@ -1,0 +1,5 @@
+.lead__image {
+    grid-column: span 2;
+    width: 100%;
+    object-fit: cover;
+}

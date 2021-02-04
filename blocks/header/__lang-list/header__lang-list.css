@@ -1,0 +1,11 @@
+.header__lang-list {
+    width: 30px;
+    height: 28px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header__lang-list {
+        width: 22px;
+        height: 20px;
+    }
+}

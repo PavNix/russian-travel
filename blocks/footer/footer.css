@@ -1,0 +1,13 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, max-content);
+    align-items: start;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr minmax(min-content, max-content);
+        row-gap: 48px;
+    }
+}

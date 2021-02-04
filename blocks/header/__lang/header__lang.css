@@ -1,0 +1,11 @@
+.header__lang {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-items: end;
+    align-items: center;
+    column-gap: 18px;
+    grid-auto-flow: column;
+    list-style-type: none;
+}
