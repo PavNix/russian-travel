@@ -1,7 +1,5 @@
 .lead__caption {
-    margin: 0;
     padding-top: 8px;
-    grid-column: span 2;
     align-self: start;
     justify-self: start;
     font-family: 'Inter', Arial, sans-serif;
